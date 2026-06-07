@@ -1,6 +1,8 @@
 <?php
 session_start();
 require '../config/db.php';
+require '../includes/auth.php';
+requireRole('patient');
 include '../includes/header.php';
 
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'patient') {
