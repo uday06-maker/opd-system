@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #f0f4f8;
     font-family: 'Segoe UI', sans-serif;
 }
 
@@ -10,10 +10,34 @@ body {
 .card {
     border: none;
     border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    transition: transform 0.2s;
 }
 
-.btn-primary {
-    background-color: #0d6efd;
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.btn {
     border-radius: 8px;
+}
+
+.table thead th {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.badge {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.pagination .page-link {
+    border-radius: 8px;
+    margin: 0 2px;
+}
+
+#live-badge {
+    transition: opacity 0.4s ease;
 }
