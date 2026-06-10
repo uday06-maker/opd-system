@@ -27,9 +27,9 @@
             <?php elseif ($_SESSION['role'] === 'doctor'): ?>
                 <a href="/opd-system/pages/doctor_dashboard.php" class="btn btn-light btn-sm">Dashboard</a>
             <?php elseif ($_SESSION['role'] === 'admin'): ?>
-                <a href="/opd-system/pages/admin_dashboard.php" class="btn btn-light btn-sm">Admin Panel</a>
-                <a href="/opd-system/pages/view_queue.php" class="btn btn-outline-light btn-sm">Live Queue</a>
-            <?php endif; ?>
+    <a href="/opd-system/pages/admin_dashboard.php" class="btn btn-light btn-sm">Admin Panel</a>
+    <a href="/opd-system/pages/admin_reports.php" class="btn btn-outline-light btn-sm">Reports</a>
+    <a href="/opd-system/pages/view_queue.php" class="btn btn-outline-light btn-sm">Live Queue</a>
             <a href="/opd-system/pages/logout.php" class="btn btn-outline-light btn-sm">Logout</a>
         <?php else: ?>
             <a href="/opd-system/pages/login.php" class="btn btn-light btn-sm">Login</a>

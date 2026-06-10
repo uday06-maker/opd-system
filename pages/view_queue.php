@@ -51,7 +51,9 @@ $tokens = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <div class="d-flex justify-content-between align-items-center mb-3">
     <h4 class="text-primary mb-0">Live OPD Queue</h4>
-    <span class="badge bg-success" id="live-badge">Live</span>
+   <div class="live-indicator">
+    <span class="live-dot"></span> Auto-refreshing
+</div>
 </div>
 
 <!-- Search Form -->
