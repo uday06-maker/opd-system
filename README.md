@@ -24,6 +24,6 @@ PHP 8.2 | MySQL | Bootstrap 5 | Chart.js | XAMPP
 ## Test Credentials
 | Role    | Email                  | Password  |
 |---------|------------------------|-----------|
-| Admin   | admin@hospital.com     | password  |
+| Admin   | admin@hospital.com     | admin123  |
 | Doctor  | drramesh@hospital.com  | doctor123 |
 | Patient | register on site       | —         |
